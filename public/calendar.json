@@ -1,0 +1,390 @@
+[
+    {
+        "id": "61b2411cb2800280f183f71f",
+        "season": 2023,
+        "name": "2023",
+        "sequence": 1,
+        "dateOfStart": "12/27/2022 12:00:00",
+        "dateOfEnd": "11/26/2023 16:00:00",
+        "events": [
+            {
+                "id": "6002b0fa4ea5d4488ca9f3fe",
+                "sequence": 1,
+                "code": "POR",
+                "shortName": "GRAN PRÉMIO DE PORTUGAL",
+                "sponsoredName": "Grande Prémio de Portugal",
+                "circuit": {
+                    "id": "5f6201915af11a07a9372777",
+                    "name": "Algarve International Circuit",
+                    "location": "Portugal"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "03/19/2023 12:00:00",
+                        "dateOfEnd": "03/26/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b0504ea5d4488ca9f2b3",
+                "sequence": 2,
+                "code": "ARG",
+                "shortName": "GRAND PRIX OF ARGENTINA",
+                "sponsoredName": "Gran Premio Michelin® de la República Argentina",
+                "circuit": {
+                    "id": "6002b0054ea5d4488ca9f217",
+                    "name": "Termas de Río Hondo",
+                    "location": "ARGENTINA"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "03/25/2023 12:00:00",
+                        "dateOfEnd": "04/02/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "60f95f075363ed2a9076bb5c",
+                "sequence": 3,
+                "code": "AME",
+                "shortName": "GRAND PRIX OF THE AMERICAS",
+                "sponsoredName": "Red Bull Grand Prix of The Americas",
+                "circuit": {
+                    "id": "6002b0bb4ea5d4488ca9f37f",
+                    "name": "Circuit Of The Americas",
+                    "location": "UNITED STATES"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "04/09/2023 18:00:00",
+                        "dateOfEnd": "04/16/2023 14:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b1814ea5d4488ca9f50f",
+                "sequence": 4,
+                "code": "SPA",
+                "shortName": "GRAND PRIX OF SPAIN",
+                "sponsoredName": "Gran Premio de España",
+                "circuit": {
+                    "id": "5f61e6565af11a07a93723eb",
+                    "name": "Circuito de Jerez - Angel Nieto",
+                    "location": "Spain"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "04/23/2023 18:00:00",
+                        "dateOfEnd": "04/30/2023 17:00:00"
+                    }
+                }
+            },
+            {
+                "id": "5f61ed545af11a07a9372518",
+                "sequence": 5,
+                "code": "FRA",
+                "shortName": "GRAND PRIX OF FRANCE",
+                "sponsoredName": "SHARK Grand Prix de France",
+                "circuit": {
+                    "id": "5f61e6925af11a07a9372400",
+                    "name": "Le Mans",
+                    "location": "France"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "05/07/2023 18:00:00",
+                        "dateOfEnd": "05/14/2023 17:00:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b2444ea5d4488ca9f6a7",
+                "sequence": 6,
+                "code": "ITA",
+                "shortName": "GRAND PRIX OF ITALY",
+                "sponsoredName": "Gran Premio Italia Oakley",
+                "circuit": {
+                    "id": "6002b2184ea5d4488ca9f648",
+                    "name": "Autodromo Internazionale del Mugello",
+                    "location": "Italy"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "06/04/2023 16:00:00",
+                        "dateOfEnd": "06/11/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b30e4ea5d4488ca9f84b",
+                "sequence": 7,
+                "code": "GER",
+                "shortName": "GRAND PRIX OF DEUTSCHLAND",
+                "sponsoredName": "Liqui Moly Motorrad Grand Prix Deutschland",
+                "circuit": {
+                    "id": "6002b2f24ea5d4488ca9f805",
+                    "name": "Sachsenring",
+                    "location": "GERMANY"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "06/11/2023 16:00:00",
+                        "dateOfEnd": "06/18/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b3804ea5d4488ca9f956",
+                "sequence": 8,
+                "code": "NED",
+                "shortName": "GRAND PRIX OF NETHERLANDS",
+                "sponsoredName": "Motul TT Assen",
+                "circuit": {
+                    "id": "6002b35c4ea5d4488ca9f903",
+                    "name": "TT Circuit Assen",
+                    "location": "NETHERLANDS"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "06/18/2023 16:00:00",
+                        "dateOfEnd": "06/25/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "63a3338046fc7841f6a3e485",
+                "sequence": 9,
+                "code": "KAZ",
+                "shortName": "GRAND PRIX OF KAZAKHSTAN",
+                "sponsoredName": "Grand Prix of Kazakhstan",
+                "circuit": {
+                    "id": "63a331e046fc7841f6a3e484",
+                    "name": "Sokol International Racetrack",
+                    "location": "KAZAKHSTAN"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "07/02/2023 16:00:00",
+                        "dateOfEnd": "07/09/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b4ad4ea5d4488ca9fbba",
+                "sequence": 10,
+                "code": "GBR",
+                "shortName": "GRAND PRIX OF Great Britain",
+                "sponsoredName": "Monster Energy British Grand Prix",
+                "circuit": {
+                    "id": "6002b4954ea5d4488ca9fb8f",
+                    "name": "Silverstone Circuit",
+                    "location": "GREAT BRITAIN"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "07/30/2023 16:00:00",
+                        "dateOfEnd": "08/06/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "5f61ecab5af11a07a93724f1",
+                "sequence": 11,
+                "code": "AUT",
+                "shortName": "GRAND PRIX OF ÖSTERREICH",
+                "sponsoredName": "CryptoDATA Motorrad Grand Prix von Österreich",
+                "circuit": {
+                    "id": "5f61e66f5af11a07a93723f3",
+                    "name": "Red Bull Ring - Spielberg",
+                    "location": "AUSTRIA"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "08/13/2023 16:00:00",
+                        "dateOfEnd": "08/20/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "5f61ed455af11a07a9372515",
+                "sequence": 12,
+                "code": "CAT",
+                "shortName": "GRAND PRIX OF CATALUNYA",
+                "sponsoredName": "Gran Premi Monster Energy de Catalunya",
+                "circuit": {
+                    "id": "5f61e6845af11a07a93723f9",
+                    "name": "Circuit de Barcelona-Catalunya",
+                    "location": "SPAIN"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "08/27/2023 16:00:00",
+                        "dateOfEnd": "09/03/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "5f61ed0d5af11a07a9372507",
+                "sequence": 13,
+                "code": "RSM",
+                "shortName": "GRAND PRIX OF SAN MARINO",
+                "sponsoredName": "Gran Premio di San Marino e della Riviera di Rimini",
+                "circuit": {
+                    "id": "5f61e6795af11a07a93723f6",
+                    "name": "Misano World Circuit Marco Simoncelli",
+                    "location": "ITALY"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "09/03/2023 16:00:00",
+                        "dateOfEnd": "09/10/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "63a33a0246fc7841f6a3e48b",
+                "sequence": 14,
+                "code": "IND",
+                "shortName": "GRAND PRIX OF INDIA",
+                "sponsoredName": "Grand Prix of India",
+                "circuit": {
+                    "id": "63a339a646fc7841f6a3e48a",
+                    "name": "Buddh International Circuit",
+                    "location": "INDIA"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "09/17/2023 16:00:00",
+                        "dateOfEnd": "09/24/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b6054ea5d4488ca9fe91",
+                "sequence": 15,
+                "code": "JPN",
+                "shortName": "GRAND PRIX OF JAPAN",
+                "sponsoredName": "Motul Grand Prix of Japan",
+                "circuit": {
+                    "id": "6002b5564ea5d4488ca9fd28",
+                    "name": "Twin Ring Motegi",
+                    "location": "JAPAN"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "09/24/2023 16:00:00",
+                        "dateOfEnd": "10/01/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "61a9367fb2800280f16220c2",
+                "sequence": 16,
+                "code": "IDN",
+                "shortName": "GRAND PRIX OF INDONESIA",
+                "sponsoredName": "Pertamina Grand Prix of Indonesia",
+                "circuit": {
+                    "id": "61a931c0b2800280f1620e4f",
+                    "name": "Mandalika International Street Circuit",
+                    "location": "INDONESIA"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "10/08/2023 16:00:00",
+                        "dateOfEnd": "10/15/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b6794ea5d4488ca9ff76",
+                "sequence": 17,
+                "code": "AUS",
+                "shortName": "GRAND PRIX OF AUSTRALIA",
+                "sponsoredName": "Animoca Brands Australian Motorcycle Grand Prix",
+                "circuit": {
+                    "id": "6002b59d4ea5d4488ca9fdbc",
+                    "name": "Phillip Island",
+                    "location": "AUSTRALIA"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "10/15/2023 16:00:00",
+                        "dateOfEnd": "10/22/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b6584ea5d4488ca9ff36",
+                "sequence": 18,
+                "code": "THA",
+                "shortName": "GRAND PRIX OF THAILAND",
+                "sponsoredName": "OR Thailand Grand Prix",
+                "circuit": {
+                    "id": "6002b56f4ea5d4488ca9fd67",
+                    "name": "Chang International Circuit",
+                    "location": "THAILAND"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "10/22/2023 16:00:00",
+                        "dateOfEnd": "10/29/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "6002b6c74ea5d4488caa0024",
+                "sequence": 19,
+                "code": "MAL",
+                "shortName": "GRAND PRIX OF MALAYSIA",
+                "sponsoredName": "PETRONAS Grand Prix of Malaysia",
+                "circuit": {
+                    "id": "6002b5c24ea5d4488ca9fe0c",
+                    "name": "Sepang International Circuit",
+                    "location": "MALAYSIA"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "11/05/2023 16:00:00",
+                        "dateOfEnd": "11/12/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "5f61eb755af11a07a937249a",
+                "sequence": 20,
+                "code": "QAT",
+                "shortName": "GRAND PRIX OF QATAR",
+                "sponsoredName": "Grand Prix of Qatar",
+                "circuit": {
+                    "id": "5f61e6465af11a07a93723e6",
+                    "name": "Losail International Circuit",
+                    "location": "QATAR"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "11/12/2023 16:00:00",
+                        "dateOfEnd": "11/19/2023 15:45:00"
+                    }
+                }
+            },
+            {
+                "id": "5f61edc75af11a07a9372533",
+                "sequence": 21,
+                "code": "VAL",
+                "shortName": "GRAND PRIX OF VALENCIA",
+                "sponsoredName": "Gran Premio Motul de la Comunitat Valenciana",
+                "circuit": {
+                    "id": "5f61e72d5af11a07a937241e",
+                    "name": "Circuit Ricardo Tormo",
+                    "location": "SPAIN"
+                },
+                "schedule": {
+                    "localTime": {
+                        "dateOfStart": "11/19/2023 16:00:00",
+                        "dateOfEnd": "11/26/2023 15:45:00"
+                    }
+                }
+            }
+        ]
+    }
+]
