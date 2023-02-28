@@ -3,6 +3,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete';
 import { useEffect, useState } from 'react';
+import "../style/home.css";
 
 function ReactComponent() {
     const [dataLoaded, setDataLoaded] = useState(false);
@@ -10,7 +11,7 @@ function ReactComponent() {
     const [calendarData, setCalendarData] = useState<any[]>([]);
     const [dateSelected, setDateSelected] = useState<string>("");
     const [nameSelected, setNameSelected] = useState<string>("");
-    const items: { id: number; name: any; }[] = [];
+    const items: { id: number; name: any; date: string }[] = [];
     let cont = 0;
 
     useEffect(() => {
@@ -29,14 +30,14 @@ function ReactComponent() {
     const handleOnSelect = (item: any) => {
         setNameSelected(item.name);
         setDateSelected("");
-    }
+    };
 
     if (dataLoaded) {
-        calendarCardsData.forEach(calendarCardData => items.push({ id: cont++, name: calendarCardData.shortName }))
+        calendarCardsData.forEach(calendarCardData => items.push({ id: cont++, name: calendarCardData.shortName, date: calendarCardData.schedule.localTime.dateOfStart.split(' ')[0] }))
 
         return (
             <div className="app">
-                <div style={{ width: 348 }}>
+                <div style={{ width: 348 , padding: 5}}>
                     <ReactSearchAutocomplete
                         items={items}
                         resultStringKeyName="name"
@@ -68,6 +69,7 @@ function ReactComponent() {
                         setDateSelected(`${("0" + (day.getMonth() + 1)).slice(-2)}/${("0" + (day.getDate())).slice(-2)}/${day.getFullYear()}`);
                         setNameSelected("");
                     }}
+                    className="react-calendar"
                 />
 
                 <CalendarCard value={calendarCardsData} daySelected={dateSelected} nameSelected={nameSelected} key={calendarData[0].id} />
